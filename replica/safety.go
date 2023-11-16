@@ -15,3 +15,4 @@ type Safety interface {
 	MakeProposal(view types.View, payload []*message.Transaction) *blockchain.Block
 	GetChainStatus() string
 }
+////
